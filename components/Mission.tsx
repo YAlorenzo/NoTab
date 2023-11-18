@@ -12,11 +12,12 @@ const Mission = () => {
       <div className='fix-container'>
         <div className='flex justify-around gap-11 flex-wrap'>
           {missionItems.map((elem) => (
-            <div key={elem.id} className='flex flex-col w-full sm:w-1/2 lg:w-1/3 py-8 px-6 sm:py-16 sm:px-12 justify-center 
-            rounded-3xl border-gray-500 border-[2px]'>
+            <div key={elem.id} className='flex flex-col cursor-pointer w-full 
+            sm:w-1/2 lg:w-1/3 py-8 px-6 sm:py-16 sm:px-12 justify-center 
+            rounded-3xl border-gray-500 border-[2px] hover-shadow'>
               <div>
                  <h2 className='text-2xl font-bold sm:text-3xl max-w-[375px] mb-7'>{elem.title}</h2>
-                 <a href='/' className='text-base font-normal sm:text-2xl underline '>{elem.link}</a>
+                 <a href='/' className='text-base font-normal sm:text-2xl underline text-white'>{elem.link}</a>
               </div>
             </div>
           ))}

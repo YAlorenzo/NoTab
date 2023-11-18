@@ -27,7 +27,7 @@ const GetInTouch = () => {
         <textarea name="messege" placeholder='Message' id="messege" className='input-get'></textarea>
 
         <button type="submit" className='flex justify-center bg-black border mx-auto border-[#FFFFFF80]
-         w-full sm:w-[400px] py-6 rounded-xl text-2xl text-white font-bold'>
+         w-full sm:w-[400px] py-6 rounded-xl text-2xl text-white font-bold transition-all hover:shadow-md hover:border-[#F101BF] hover:shadow-[#F101BF]'>
           Send
         </button>
         </form>

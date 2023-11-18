@@ -132,3 +132,9 @@ body{
 .input-get2 {
     @apply w-full sm:w-1/2 rounded-xl py-6 px-5 text-base sm:text-lg outline-none border-none font-normal text-[#BFBFBF]
 }
+.hover-shadow{
+    @apply transition-all hover:shadow-md hover:border-[#F101BF] hover:shadow-[#F101BF] hover:text-[#F101BF]
+}
+.hover-color{
+    @apply transition-colors hover:text-[#F101BF];
+}

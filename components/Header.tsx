@@ -13,7 +13,7 @@ const Header = () => {
                   </div>
                   <div className='flex justify-between gap-[14px]'>
                       <Image src="user.svg" alt='user' className='hidden sm:block' width={25} height={25}/>
-                      <Link href="/" className='underline text-sm font-medium sm:text-lg'>
+                      <Link href="/" className='underline text-sm font-medium sm:text-lg hover-color'>
                         Login
                       </Link>
                   </div>
